@@ -1,0 +1,22 @@
+{
+  "name": "twitf/Administration",
+  "description": "twitf Administration module.",
+  "keywords": [
+    "twitf module"
+  ],
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "twitf",
+      "email": "qiangzaiying123@outlook.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Twitf\\Administration\\": "src/"
+    }
+  }
+}
